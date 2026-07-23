@@ -1,0 +1,19 @@
+# ── Core framework ─────────────────────────────────────────────
+# MUST be 1.x. Pre-1.0 tutorials use imports that no longer exist.
+langchain>=1.0,<2.0
+langgraph>=1.0,<2.0          # Phase 3 only; langchain pulls it in anyway
+
+# ── LLM provider ───────────────────────────────────────────────
+langchain-groq>=1.1,<2.0
+
+# ── Vector store ───────────────────────────────────────────────
+# Pulls in the `pinecone` base client automatically.
+# Do NOT also install `pinecone-client` (deprecated, renamed to `pinecone`).
+langchain-pinecone>=0.2
+
+# ── PDF parsing ────────────────────────────────────────────────
+pdfplumber>=0.11
+
+# ── Config + observability ─────────────────────────────────────
+python-dotenv>=1.0
+langsmith>=0.1
