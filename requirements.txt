@@ -10,6 +10,7 @@ langchain-groq>=1.1,<2.0
 # Pulls in the `pinecone` base client automatically.
 # Do NOT also install `pinecone-client` (deprecated, renamed to `pinecone`).
 langchain-pinecone>=0.2
+langchain-text-splitters>=1.0,<2.0
 
 # ── PDF parsing ────────────────────────────────────────────────
 pdfplumber>=0.11
