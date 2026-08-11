@@ -1,0 +1,30 @@
+{"id": "c01", "question": "What is the rank of a matrix?", "type": "conceptual", "answerable": true, "expected_section": "2.3", "expected_pages": [52, 59, 60, 61, 62]}
+{"id": "c02", "question": "What does it mean for a set of vectors to be linearly independent?", "type": "conceptual", "answerable": true, "expected_section": "2.2", "expected_pages": [48, 49, 50, 51, 52]}
+{"id": "c03", "question": "What is a basis of a vector space?", "type": "conceptual", "answerable": true, "expected_section": "2.3", "expected_pages": [53, 54, 56, 58, 59]}
+{"id": "c04", "question": "What is the trace of a matrix?", "type": "conceptual", "answerable": true, "expected_section": "1.5", "expected_pages": [38, 39]}
+{"id": "c05", "question": "What is the inverse of a matrix?", "type": "conceptual", "answerable": true, "expected_section": "1.5", "expected_pages": [33, 35, 37]}
+{"id": "c06", "question": "What is the determinant of a matrix?", "type": "conceptual", "answerable": true, "expected_section": "5.1", "expected_pages": [118, 119, 120, 121, 122, 123]}
+{"id": "c07", "question": "What are eigenvalues and eigenvectors?", "type": "conceptual", "answerable": true, "expected_section": "5.2", "expected_pages": [124, 125, 126, 127, 128, 129]}
+{"id": "c08", "question": "What is the norm of a vector?", "type": "conceptual", "answerable": true, "expected_section": "4.1", "expected_pages": [85, 88, 89, 90, 91, 92]}
+{"id": "c09", "question": "What is the scalar product of two vectors?", "type": "conceptual", "answerable": true, "expected_section": "4.2", "expected_pages": [92, 93, 94, 95, 96, 97, 98]}
+{"id": "c10", "question": "What is an orthogonal projection?", "type": "conceptual", "answerable": true, "expected_section": "4.3", "expected_pages": [95, 102, 105]}
+{"id": "c11", "question": "What is the kernel of a linear mapping?", "type": "conceptual", "answerable": true, "expected_section": "3.2", "expected_pages": [74, 75, 76, 77, 78]}
+{"id": "c12", "question": "What is the image of a linear mapping?", "type": "conceptual", "answerable": true, "expected_section": "3.2", "expected_pages": [74, 75, 76, 77, 78]}
+{"id": "c13", "question": "What is a vector space?", "type": "conceptual", "answerable": true, "expected_section": "2.1", "expected_pages": [42, 43, 44]}
+{"id": "c14", "question": "What is an affine space?", "type": "conceptual", "answerable": true, "expected_section": "3.3", "expected_pages": [78, 79, 80, 81, 82]}
+{"id": "c15", "question": "What is the Cholesky decomposition and when is it used?", "type": "conceptual", "answerable": true, "expected_section": "5.3", "expected_pages": [130, 133, 134, 135]}
+{"id": "c16", "question": "What is singular value decomposition?", "type": "conceptual", "answerable": true, "expected_section": "5.5", "expected_pages": [138, 139, 140, 141, 145]}
+{"id": "m01", "question": "Show me a worked example of subtracting one matrix from another.", "type": "computational", "answerable": true, "expected_section": "1.3", "expected_pages": [18, 19]}
+{"id": "m02", "question": "Give a numerical example of multiplying two matrices.", "type": "computational", "answerable": true, "expected_section": "1.3", "expected_pages": [20, 21, 22, 23]}
+{"id": "m03", "question": "Work through computing the determinant of a specific 3x3 matrix.", "type": "computational", "answerable": true, "expected_section": "5.1", "expected_pages": [119, 120, 121, 122]}
+{"id": "m04", "question": "Work through a numerical example of finding the eigenvalues of a matrix.", "type": "computational", "answerable": true, "expected_section": "5.2", "expected_pages": [125, 126, 127, 128]}
+{"id": "m05", "question": "Show a worked example of a Cholesky decomposition.", "type": "computational", "answerable": true, "expected_section": "5.3", "expected_pages": [131, 132, 133, 134]}
+{"id": "f01", "question": "How do I train a neural network?", "type": "out_of_scope_far", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "f02", "question": "What is the capital of France?", "type": "out_of_scope_far", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "f03", "question": "How do I write a for loop in Python?", "type": "out_of_scope_far", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "f04", "question": "What is the time complexity of quicksort?", "type": "out_of_scope_far", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n01", "question": "What is the QR decomposition of a matrix?", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n02", "question": "Explain the Moore-Penrose pseudoinverse.", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n03", "question": "What is the matrix exponential?", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n04", "question": "Explain the Gram-Schmidt process.", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n05", "question": "What is the LU decomposition of a matrix?", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
