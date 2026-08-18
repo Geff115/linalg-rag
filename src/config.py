@@ -25,3 +25,14 @@ LLM_TEMPERATURE = 0          # deterministic answers for a study tool
 
 # --- Retrieval ---
 RETRIEVE_K = 5               # how many chunks to pull per question
+
+# --- Eval models (separate from studying, to conserve the daily token cap) ---
+# The eval runs ~60 calls; a small model with a higher daily limit is plenty.
+EVAL_GEN_MODEL = "openai/gpt-oss-120b"
+EVAL_JUDGE_MODEL = "openai/gpt-oss-120b"
+
+# --- Phase 3 routing ---
+# Refuse outright when the best retrieved chunk scores below this. Set from the
+# Phase 2 data: every in-scope question scored >= 0.839, every far out-of-scope
+# question <= 0.810. 0.82 sits cleanly in that gap.
+SCORE_GATE_THRESHOLD = 0.82
