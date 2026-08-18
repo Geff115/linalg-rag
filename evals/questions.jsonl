@@ -27,4 +27,4 @@
 {"id": "n02", "question": "Explain the Moore-Penrose pseudoinverse.", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
 {"id": "n03", "question": "What is the matrix exponential?", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
 {"id": "n04", "question": "Explain the Gram-Schmidt process.", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
-{"id": "n05", "question": "What is the LU decomposition of a matrix?", "type": "out_of_scope_near", "answerable": false, "expected_section": null, "expected_pages": []}
+{"id": "n05", "question": "What is the LU decomposition of a matrix?", "type": "conceptual", "answerable": true, "expected_section": "5.3", "expected_pages": [130, 131, 132, 133]}
